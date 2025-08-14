@@ -1,32 +1,60 @@
-🎓 College Complaint Web Portal
-A full-stack MERN web application designed to simplify the process of submitting, managing, and resolving complaints within a college campus.
-This portal offers separate dashboards for Students and Admins, enabling seamless communication and tracking of complaint status from submission to resolution.
+# 🎓 College Complaint Web Portal
 
-📖 Project Overview
-In most colleges, handling complaints can be time-consuming, poorly tracked, and prone to delays.
-This College Complaint Web Portal solves that by providing:
-Digital submission of complaints by students from anywhere, anytime.
-Centralized management for admins to view and resolve issues efficiently.
-Real-time status updates so students can track the progress of their complaints.
-A secure, role-based login system to ensure data privacy.
+A **MERN stack web application** for managing and tracking student complaints in a college environment.  
+This system provides **separate dashboards for Students and Admins** to ensure smooth communication and quick resolution of issues.
 
-✨ Key Features
-👨‍🎓 Student Module
-Register/Login with JWT-secured authentication.
-Submit Complaints with details:
-Student ID
-Venue (e.g., Hostel Room, Classroom, Playground)
-Room Number (if applicable)
-Complaint Type (Plumber, Maid, Carpenter, Electrician, etc.)
-Description of the issue
-Complaint History Dashboard:
-View all submitted complaints
-See current status (Pending, In Progress, Resolved)
-🛠 Admin Module
-Register/Login (separate from student accounts)
-View All Complaints submitted by students
-Filter and Update Status of complaints:
-Pending
-In Progress
-Resolved
-Direct communication via complaint details for better resolution
+---
+
+## 📖 Overview
+
+The **College Complaint Web Portal** replaces outdated manual complaint systems with a **secure, digital platform** where:
+
+- Students can **register, log in, and submit complaints** online.
+- Admins can **view, update, and resolve** complaints efficiently.
+- Both parties have **real-time updates** on complaint statuses.
+
+---
+
+## ✨ Features
+
+### 👨‍🎓 Student Side
+- **JWT-secured authentication** (register & login).
+- Submit complaints with:
+  - Venue
+  - Room number (if applicable)
+  - Complaint type (Plumber, Maid, Carpenter, Electrician, etc.)
+  - Description of the issue
+- View **complaint history** and track status:
+  - `Pending`
+  - `In Progress`
+  - `Resolved`
+
+### 🛠 Admin Side
+- **Separate authentication** for admins.
+- View all student complaints with full details.
+- Update complaint statuses:
+  - `Pending`
+  - `In Progress`
+  - `Resolved`
+- Manage workflow for faster problem-solving.
+
+---
+
+## 🖥 Tech Stack
+
+| Layer       | Technology |
+|-------------|------------|
+| **Frontend** | React (Vite), TailwindCSS, Axios, React Router DOM |
+| **Backend**  | Node.js, Express.js |
+| **Database** | MongoDB (Mongoose) |
+| **Auth**     | JSON Web Token (JWT) |
+| **Tools**    | Postman, Git |
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/college-complaint-portal.git
+cd college-complaint-portal
